@@ -6,12 +6,13 @@ package org.service.ex01
 
 fun main() {
 
-    // 변수 선언
+    // kotlin 변수 선언
     // var = mutable (가변) / val ,final (불변) -> immutable
 
     // : [타입]
-    val name : String = "테스트";
     var _name : String = "테스트";
+    val name : String = "테스트";
+
 
     // 타입 추론이 가능하기에 아래와 같이 선언 가능
     val n = "테스트";
